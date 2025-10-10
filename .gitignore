@@ -1,3 +1,38 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project-specific files to ignore
 P1.py
-projects_V1.md
 projects.md
+projects_V1.md
+api_practice.py
+
+# Environment variables (if you add them)
+.env
+config.py
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
